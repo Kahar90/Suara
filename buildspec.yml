@@ -7,7 +7,7 @@ phases:
       nodejs: 20
     commands:
       - npm install
-  prebuild:
+  pre_build:
     on-failure: ABORT
     commands:
       - npm test
